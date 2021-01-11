@@ -1,0 +1,3 @@
+[submodule "vault-ssh-demo"]
+	path = vault-ssh-demo
+	url = https://github.com/jpapazian2000/vault-ssh-demo.git
