@@ -21,3 +21,4 @@ This module will do the following:
     1. if you click on `roles` and select the role you've created, you can now in the interface sign a public_key.
     2. if you click on `configuration` you can see the configuration of the ssh secret engine.
         1. if from there you click on `configure` (right hand side of the screen) you will get a way to see the `public_key` that was generated for this CA.
+9. You can now move to the next part of this demo, which is the aws configuration of the environement, leveraging the data provided by vault
