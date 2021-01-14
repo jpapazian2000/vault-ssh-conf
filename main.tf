@@ -6,6 +6,13 @@ provider "vault" {
  namespace		= "Tech/AWS"
 }
 
+resource "vault_token" "ssh-token" {
+  policies = ["ssh-user-policy"]
+
+  renewable = true
+  ttl = "600s"
+}
+
 resource "vault_mount" "ssh_engine" {
  type			= "ssh"
  path			= "ssh-client2"
