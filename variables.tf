@@ -3,6 +3,11 @@ variable "vault_addr" {
     default             = ""
 }
 
+variable "vault_admin_token" {
+    description         = "admin token to allow creation of roles, etc..."
+    default             = ""
+}
+
 variable "default_user" {
     description         = "default user to be allowed ssh access"
     default             = "ubuntu"

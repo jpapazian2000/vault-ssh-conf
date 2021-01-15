@@ -10,7 +10,7 @@ resource "vault_token" "ssh-token" {
   policies = ["ssh-user-policy"]
 
   renewable = true
-  ttl = "600s"
+  ttl = "1200s"
 }
 
 resource "vault_mount" "ssh_engine" {
