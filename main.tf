@@ -1,7 +1,7 @@
 provider "vault" {
  address		= var.vault_addr
  add_address_to_env	= "true"
- token			= "s.R9UwfyNmJTu3A0ceWdOzqUMH"
+ token			= var.vault_admin_token
  token_name		= "vault-ssh-token"
  namespace		= "Tech/AWS"
 }
