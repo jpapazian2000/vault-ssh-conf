@@ -8,4 +8,5 @@ output "vault_ca_public_key" {
 
 output "vault_ssh_token" {
  value =   vault_token.ssh-token.client_token
+ sensitive = true
 }
